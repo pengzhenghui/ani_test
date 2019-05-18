@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:42
+-keep class com.umeng.facebook.FacebookActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.umeng.facebook.FacebookContentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.umeng.soexample.MainActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:17
+-keepclassmembers class * { *** shareFacebook(...); }
+
